@@ -1,0 +1,123 @@
+\begin{theindex}
+
+  \item {C\+M\+S\+I\+S}, \hyperpage{7}
+
+  \indexspace
+
+  \item {E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler}
+    \subitem {stm32f3xx\+\_\+it.\+c}, \hyperpage{26}
+
+  \indexspace
+
+  \item {H\+S\+E\+\_\+\+V\+A\+L\+U\+E}
+    \subitem {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Defines}, 
+		\hyperpage{11}
+  \item {H\+S\+I\+\_\+\+V\+A\+L\+U\+E}
+    \subitem {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Defines}, 
+		\hyperpage{11}
+
+  \indexspace
+
+  \item {led\+\_\+green}
+    \subitem {leds.\+c}, \hyperpage{20}
+    \subitem {leds.\+h}, \hyperpage{23}
+  \item {led\+\_\+green\+\_\+blink}
+    \subitem {leds.\+c}, \hyperpage{20}
+    \subitem {leds.\+h}, \hyperpage{23}
+  \item {led\+\_\+init}
+    \subitem {leds.\+c}, \hyperpage{20}
+    \subitem {leds.\+h}, \hyperpage{23}
+  \item {led\+\_\+red}
+    \subitem {leds.\+c}, \hyperpage{21}
+    \subitem {leds.\+h}, \hyperpage{23}
+  \item {led\+\_\+red\+\_\+yellow}
+    \subitem {leds.\+c}, \hyperpage{21}
+    \subitem {leds.\+h}, \hyperpage{24}
+  \item {led\+\_\+reset}
+    \subitem {leds.\+c}, \hyperpage{21}
+    \subitem {leds.\+h}, \hyperpage{24}
+  \item {led\+\_\+yellow}
+    \subitem {leds.\+c}, \hyperpage{21}
+    \subitem {leds.\+h}, \hyperpage{24}
+  \item {led\+\_\+yellow\+\_\+blink}
+    \subitem {leds.\+c}, \hyperpage{21}
+    \subitem {leds.\+h}, \hyperpage{24}
+  \item {leds.\+c}
+    \subitem {led\+\_\+green}, \hyperpage{20}
+    \subitem {led\+\_\+green\+\_\+blink}, \hyperpage{20}
+    \subitem {led\+\_\+init}, \hyperpage{20}
+    \subitem {led\+\_\+red}, \hyperpage{21}
+    \subitem {led\+\_\+red\+\_\+yellow}, \hyperpage{21}
+    \subitem {led\+\_\+reset}, \hyperpage{21}
+    \subitem {led\+\_\+yellow}, \hyperpage{21}
+    \subitem {led\+\_\+yellow\+\_\+blink}, \hyperpage{21}
+  \item {leds.\+h}
+    \subitem {led\+\_\+green}, \hyperpage{23}
+    \subitem {led\+\_\+green\+\_\+blink}, \hyperpage{23}
+    \subitem {led\+\_\+init}, \hyperpage{23}
+    \subitem {led\+\_\+red}, \hyperpage{23}
+    \subitem {led\+\_\+red\+\_\+yellow}, \hyperpage{24}
+    \subitem {led\+\_\+reset}, \hyperpage{24}
+    \subitem {led\+\_\+yellow}, \hyperpage{24}
+    \subitem {led\+\_\+yellow\+\_\+blink}, \hyperpage{24}
+
+  \indexspace
+
+  \item {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Defines}, 
+		\hyperpage{11}
+    \subitem {H\+S\+E\+\_\+\+V\+A\+L\+U\+E}, \hyperpage{11}
+    \subitem {H\+S\+I\+\_\+\+V\+A\+L\+U\+E}, \hyperpage{11}
+    \subitem {V\+E\+C\+T\+\_\+\+T\+A\+B\+\_\+\+O\+F\+F\+S\+E\+T}, 
+		\hyperpage{11}
+  \item {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Function\+Prototypes}, 
+		\hyperpage{14}
+  \item {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Functions}, 
+		\hyperpage{15}
+    \subitem {System\+Core\+Clock\+Update}, \hyperpage{15}
+    \subitem {System\+Init}, \hyperpage{16}
+  \item {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Includes}, 
+		\hyperpage{9}
+  \item {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Macros}, 
+		\hyperpage{12}
+  \item {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Types\+Definitions}, 
+		\hyperpage{10}
+  \item {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Variables}, 
+		\hyperpage{13}
+  \item {src/leds.\+c}, \hyperpage{19}
+  \item {src/leds.\+h}, \hyperpage{22}
+  \item {src/main.\+c}, \hyperpage{25}
+  \item {src/stm32f3xx\+\_\+it.\+c}, \hyperpage{26}
+  \item {src/system\+\_\+stm32f3xx.\+c}, \hyperpage{27}
+  \item {src/traffic\+\_\+light.\+h}, \hyperpage{29}
+  \item {src/traffic\+\_\+light\+\_\+control.\+c}, \hyperpage{31}
+  \item {stm32f3xx\+\_\+it.\+c}
+    \subitem {E\+X\+T\+I0\+\_\+\+I\+R\+Q\+Handler}, \hyperpage{26}
+    \subitem {Sys\+Tick\+\_\+\+Handler}, \hyperpage{27}
+  \item {Stm32f3xx\+\_\+system}, \hyperpage{8}
+  \item {Sys\+Tick\+\_\+\+Handler}
+    \subitem {stm32f3xx\+\_\+it.\+c}, \hyperpage{27}
+  \item {System\+Core\+Clock\+Update}
+    \subitem {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Functions}, 
+		\hyperpage{15}
+  \item {System\+Init}
+    \subitem {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Functions}, 
+		\hyperpage{16}
+
+  \indexspace
+
+  \item {traffic\+\_\+light.\+h}
+    \subitem {traffic\+\_\+light\+\_\+control}, \hyperpage{30}
+  \item {traffic\+\_\+light\+\_\+control}
+    \subitem {traffic\+\_\+light.\+h}, \hyperpage{30}
+    \subitem {traffic\+\_\+light\+\_\+control.\+c}, \hyperpage{32}
+  \item {traffic\+\_\+light\+\_\+control.\+c}
+    \subitem {traffic\+\_\+light\+\_\+control}, \hyperpage{32}
+  \item {traffic\+\_\+light\+\_\+data}, \hyperpage{17}
+
+  \indexspace
+
+  \item {V\+E\+C\+T\+\_\+\+T\+A\+B\+\_\+\+O\+F\+F\+S\+E\+T}
+    \subitem {S\+T\+M32\+F3xx\+\_\+\+System\+\_\+\+Private\+\_\+\+Defines}, 
+		\hyperpage{11}
+
+\end{theindex}

@@ -1,0 +1,5 @@
+<map id="src/leds.h" name="src/leds.h">
+<area shape="rect" id="node2" href="$leds_8c.html" title="Functions to control LEDs. " alt="" coords="5,80,84,107"/>
+<area shape="rect" id="node3" href="$main_8c.html" title="Default main function. " alt="" coords="109,80,191,107"/>
+<area shape="rect" id="node4" href="$traffic__light__control_8c.html" title="event centric state machine to control the traffic light " alt="" coords="215,80,378,107"/>
+</map>

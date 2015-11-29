@@ -1,0 +1,99 @@
+\hypertarget{traffic__light_8h}{}\section{src/traffic\+\_\+light.h File Reference}
+\label{traffic__light_8h}\index{src/traffic\+\_\+light.\+h@{src/traffic\+\_\+light.\+h}}
+
+
+Definition of the traffic lights (including states and events)  
+
+
+{\ttfamily \#include $<$stdbool.\+h$>$}\\*
+{\ttfamily \#include $<$stdio.\+h$>$}\\*
+{\ttfamily \#include $<$stdlib.\+h$>$}\\*
+Include dependency graph for traffic\+\_\+light.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{traffic__light_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=282pt]{traffic__light_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structtraffic__light__data}{traffic\+\_\+light\+\_\+data}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{traffic__light_8h_ae1939dd3965083c1b787f49b04617811}{}enum {\bfseries traffic\+\_\+state} \{ \\*
+{\bfseries R\+E\+D}, 
+{\bfseries R\+E\+D\+\_\+\+Y\+E\+L\+L\+O\+W}, 
+{\bfseries G\+R\+E\+E\+N}, 
+{\bfseries G\+R\+E\+E\+N\+\_\+\+B\+L\+I\+N\+K}, 
+\\*
+{\bfseries Y\+E\+L\+L\+O\+W}, 
+{\bfseries Y\+E\+L\+L\+O\+W\+\_\+\+B\+L\+I\+N\+K}
+ \}\label{traffic__light_8h_ae1939dd3965083c1b787f49b04617811}
+
+\item 
+\hypertarget{traffic__light_8h_a5dd9ab2cfb1c1c4ad4dab0dc5fd1fb31}{}enum {\bfseries traffic\+\_\+event} \{ \\*
+{\bfseries S\+T\+O\+P}, 
+{\bfseries P\+R\+E\+P\+A\+R\+E\+\_\+\+G\+O}, 
+{\bfseries G\+O}, 
+{\bfseries P\+R\+E\+P\+A\+R\+E\+\_\+\+C\+A\+U\+T\+I\+O\+N}, 
+\\*
+{\bfseries C\+A\+U\+T\+I\+O\+N}, 
+{\bfseries F\+A\+U\+L\+T}
+ \}\label{traffic__light_8h_a5dd9ab2cfb1c1c4ad4dab0dc5fd1fb31}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{traffic__light_8h_a4576125fe880e2fb11525567fb8976be}{traffic\+\_\+light\+\_\+control} (\hyperlink{structtraffic__light__data}{traffic\+\_\+light\+\_\+data} $\ast$traffic\+\_\+light)
+\begin{DoxyCompactList}\small\item\em This function represents a event centric state machine to control the traffic light. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Definition of the traffic lights (including states and events) 
+
+\begin{DoxyAuthor}{Author}
+Mathias Ritter 
+\end{DoxyAuthor}
+\begin{DoxyVersion}{Version}
+V1.\+0 
+\end{DoxyVersion}
+\begin{DoxyDate}{Date}
+13-\/\+November-\/2015 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\hypertarget{traffic__light_8h_a4576125fe880e2fb11525567fb8976be}{}\index{traffic\+\_\+light.\+h@{traffic\+\_\+light.\+h}!traffic\+\_\+light\+\_\+control@{traffic\+\_\+light\+\_\+control}}
+\index{traffic\+\_\+light\+\_\+control@{traffic\+\_\+light\+\_\+control}!traffic\+\_\+light.\+h@{traffic\+\_\+light.\+h}}
+\subsubsection[{traffic\+\_\+light\+\_\+control(traffic\+\_\+light\+\_\+data $\ast$traffic\+\_\+light)}]{\setlength{\rightskip}{0pt plus 5cm}void traffic\+\_\+light\+\_\+control (
+\begin{DoxyParamCaption}
+\item[{{\bf traffic\+\_\+light\+\_\+data} $\ast$}]{p\+\_\+traffic\+\_\+light}
+\end{DoxyParamCaption}
+)}\label{traffic__light_8h_a4576125fe880e2fb11525567fb8976be}
+
+
+This function represents a event centric state machine to control the traffic light. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyRetVals}{Return values}
+{\em none} & \\
+\hline
+\end{DoxyRetVals}
